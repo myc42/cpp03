@@ -6,7 +6,7 @@
 /*   By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/20 14:58:12 by macoulib          #+#    #+#             */
-/*   Updated: 2025/12/21 17:03:59 by macoulib         ###   ########.fr       */
+/*   Updated: 2025/12/21 19:14:56 by macoulib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,5 @@ int main ()
     FragTrap bob("Bob");
 
     bob.attack("enemy");
-    bob.takeDamage(20);
-    bob.beRepaired(10);
     bob.highFivesGuys();
 }
