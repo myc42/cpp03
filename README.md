@@ -1,4 +1,4 @@
-📘 CPP03 — Héritage et polymorphisme en C++
+📘 CPP03 — Héritage et polymorphisme en C++ 
 
 Le projet CPP03 introduit les concepts clés de l’héritage en C++ et montre comment structurer des classes liées entre elles. À travers la création de classes dérivées, il met en pratique la réutilisation du code, la spécialisation du comportement et la gestion correcte des constructeurs et destructeurs dans une hiérarchie de classes.
 
