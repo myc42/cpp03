@@ -6,7 +6,7 @@
 /*   By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/20 19:17:10 by macoulib          #+#    #+#             */
-/*   Updated: 2025/12/23 23:31:15 by macoulib         ###   ########.fr       */
+/*   Updated: 2025/12/24 15:54:56 by macoulib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@
 
  }
    
-
+/* 
  void ScavTrap::attack(const std::string& target)
 {
     if (_hitPoint > 0 && _energyPoints > 0)
@@ -59,7 +59,7 @@
                   << " can't attack (no hit points or energy points left)"
                   << std::endl;
     }
-}
+} */
 
  void ScavTrap::guardGate()
  {

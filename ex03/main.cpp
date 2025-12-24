@@ -6,7 +6,7 @@
 /*   By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/20 14:58:12 by macoulib          #+#    #+#             */
-/*   Updated: 2025/12/23 23:56:14 by macoulib         ###   ########.fr       */
+/*   Updated: 2025/12/24 16:02:05 by macoulib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,5 @@ int main()
     dt.attack("un ennemi"); 
 
     
-
-    return 0;
+    return (0);
 }

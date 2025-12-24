@@ -6,7 +6,7 @@
 /*   By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/20 21:21:52 by macoulib          #+#    #+#             */
-/*   Updated: 2025/12/21 17:04:11 by macoulib         ###   ########.fr       */
+/*   Updated: 2025/12/24 15:53:04 by macoulib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,10 @@ class FragTrap : public ClapTrap
         public :
                 FragTrap (std::string name);
                 ~FragTrap ();
-                FragTrap(ClapTrap const & cpy);
+                FragTrap(FragTrap const & cpy);
                 FragTrap & operator=(FragTrap const & assign);
-                void guardGate() {};
-                void highFivesGuys(void){};
+                //void attack(const std::string& target);
+                void highFivesGuys(void);
             
 } ;
 

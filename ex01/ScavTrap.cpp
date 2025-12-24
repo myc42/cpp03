@@ -6,18 +6,18 @@
 /*   By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/20 19:17:10 by macoulib          #+#    #+#             */
-/*   Updated: 2025/12/20 21:12:14 by macoulib         ###   ########.fr       */
+/*   Updated: 2025/12/24 15:34:54 by macoulib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include "ScavTrap.hpp"
 
- ScavTrap::ScavTrap (std::string name) : ClapTrap (name)
- {
-    ClapTrap::_hitPoint = 100 ;
-    ClapTrap::_energyPoints = 50 ;
-    ClapTrap::_attackDamage = 20 ;
+ ScavTrap::ScavTrap (std::string name) : ClapTrap(name)
+ { 
+    _hitPoint = 100 ;
+    _energyPoints = 50 ;
+    _attackDamage = 20 ;
     std::cout << "ScavTrap " << _name << " constructed" << std::endl;
  }
 

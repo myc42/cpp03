@@ -6,11 +6,11 @@
 #    By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/20 14:58:18 by macoulib          #+#    #+#              #
-#    Updated: 2025/12/20 20:16:47 by macoulib         ###   ########.fr        #
+#    Updated: 2025/12/24 15:05:31 by macoulib         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ClapTrap
+NAME = ScavTrap
 CX = c++
 FX = -Wall -Wextra -Werror -std=c++98
 

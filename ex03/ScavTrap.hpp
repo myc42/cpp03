@@ -6,7 +6,7 @@
 /*   By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/20 19:17:12 by macoulib          #+#    #+#             */
-/*   Updated: 2025/12/23 23:31:20 by macoulib         ###   ########.fr       */
+/*   Updated: 2025/12/24 15:54:39 by macoulib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ class ScavTrap : virtual public ClapTrap
                 ~ScavTrap ();
                 ScavTrap(ScavTrap const & cpy);
                 ScavTrap & operator=(ScavTrap const & assign);
-                void attack(const std::string& target);
+                //void attack(const std::string& target);
                 void guardGate();
             
 } ;

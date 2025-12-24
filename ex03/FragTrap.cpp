@@ -6,7 +6,7 @@
 /*   By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/20 21:21:49 by macoulib          #+#    #+#             */
-/*   Updated: 2025/12/23 23:15:55 by macoulib         ###   ########.fr       */
+/*   Updated: 2025/12/24 15:26:31 by macoulib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 
 FragTrap::FragTrap(std::string name): ClapTrap(name)
 {
-    ClapTrap::_hitPoint = 100 ;
-    ClapTrap::_energyPoints = 100 ;
-    ClapTrap::_attackDamage = 30 ;
+    _hitPoint = 100 ;
+    _energyPoints = 100 ;
+    _attackDamage = 30 ;
     std::cout << "FragTrap " << _name << " constructed" << std::endl;
 }
 
